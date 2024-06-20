@@ -1,0 +1,15 @@
+# ./firewall custom_db.txt in.txt
+Using: custom_db.txt
+Using: in.txt tests
+Using package: 10.0.2.12 8.8.8.8 1200 56000 28
+ACCEPT
+Using package: 10.0.1.12 1.1.1.1 14640 5000 6
+DROP
+Using package: 10.0.1.11 1.1.1.1 1200 80 6
+DROP
+Using package: 10.0.2.12 8.8.8.8 8756 5000 6
+ACCEPT
+Using package: 10.0.5.1 1.2.3.4 56781 80 17
+DROP
+Using package: 10.0.5.1 1.2.3.4 56781 80 27
+DROP

@@ -1,0 +1,8 @@
+src: 10.0.2.12  	dst: 8.8.8.8	src_port: 1200	dst_port: 56000 	proto: irtp	=> ACCEPT
+					dst: 8.8.8.8	src_port: 1200	dst_port: 56000 	proto: irtp	=> ACCEPT
+									src_port: 1200	dst_port: 56000 	proto: irtp	=> ACCEPT
+													dst_port: 56000 	proto: irtp	=> ACCEPT
+																	 	proto: irtp	=> ACCEPT
+src: 10.0.2.12  																	=> ACCEPT
+src: 10.0.2.12  	dst: 8.8.8.8 	proto: tcp	=> ACCEPT
+src: 10.0.2.12  	dst: 8.8.8.8 	proto: tcp	=> ACCEPT
